@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/code/git/fr/finereport/core/base/base.iml" filepath="F:/code/git/fr/finereport/core/base/base.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-basic/base-basic.iml" filepath="F:/code/git/fr/finereport/core/base-basic/base-basic.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-calculate/base-calculate.iml" filepath="F:/code/git/fr/finereport/core/base-calculate/base-calculate.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-data/base-data.iml" filepath="F:/code/git/fr/finereport/core/base-data/base-data.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-file/base-file.iml" filepath="F:/code/git/fr/finereport/core/base-file/base-file.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-performance/base-performance.iml" filepath="F:/code/git/fr/finereport/core/base-performance/base-performance.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/core/base-stable/base-stable.iml" filepath="F:/code/git/fr/finereport/core/base-stable/base-stable.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/chart/chart-base/chart-base.iml" filepath="F:/code/git/fr/finereport/chart/chart-base/chart-base.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/chart/chart-chartattr/chart-chartattr.iml" filepath="F:/code/git/fr/finereport/chart/chart-chartattr/chart-chartattr.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/chart/chart-chartdata/chart-chartdata.iml" filepath="F:/code/git/fr/finereport/chart/chart-chartdata/chart-chartdata.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/chart/chart-chartglyph/chart-chartglyph.iml" filepath="F:/code/git/fr/finereport/chart/chart-chartglyph/chart-chartglyph.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/chart/chart-web/chart-web.iml" filepath="F:/code/git/fr/finereport/chart/chart-web/chart-web.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/design/designer/designer.iml" filepath="F:/code/git/fr/finereport/design/designer/designer.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/design/designer_base/designer_base.iml" filepath="F:/code/git/fr/finereport/design/designer_base/designer_base.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/design/designer_chart/designer_chart.iml" filepath="F:/code/git/fr/finereport/design/designer_chart/designer_chart.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/design/designer_form/designer_form.iml" filepath="F:/code/git/fr/finereport/design/designer_form/designer_form.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/engine/engine.iml" filepath="F:/code/git/fr/finereport/report/engine/engine.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/engine-page/engine-page.iml" filepath="F:/code/git/fr/finereport/report/engine-page/engine-page.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/engine-remote/engine-remote.iml" filepath="F:/code/git/fr/finereport/report/engine-remote/engine-remote.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/engine-view/engine-view.iml" filepath="F:/code/git/fr/finereport/report/engine-view/engine-view.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/engine-write/engine-write.iml" filepath="F:/code/git/fr/finereport/report/engine-write/engine-write.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/platform/fmobile/fmobile.iml" filepath="F:/code/git/fr/finereport/platform/fmobile/fmobile.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/report/form/form.iml" filepath="F:/code/git/fr/finereport/report/form/form.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/platform/fschedule/fschedule.iml" filepath="F:/code/git/fr/finereport/platform/fschedule/fschedule.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/platform/fservice/fservice.iml" filepath="F:/code/git/fr/finereport/platform/fservice/fservice.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/platform/fsmonitor/fsmonitor.iml" filepath="F:/code/git/fr/finereport/platform/fsmonitor/fsmonitor.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/performance/performance/performance.iml" filepath="F:/code/git/fr/finereport/performance/performance/performance.iml" />
+      <module fileurl="file://F:/code/git/fr/finereport/plugins-free/plugin-stream-excel-export/plugin-stream-excel-export.iml" filepath="F:/code/git/fr/finereport/plugins-free/plugin-stream-excel-export/plugin-stream-excel-export.iml" />
+    </modules>
+  </component>
+</project>

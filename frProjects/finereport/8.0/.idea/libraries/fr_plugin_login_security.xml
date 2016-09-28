@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fr-plugin-login-security">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-fsloginsecurity/install/fr-plugin-login-security.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

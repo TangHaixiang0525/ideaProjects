@@ -1,0 +1,117 @@
+startPlate: com.fr.schedule.SchedulePlate
+startPlate success: com.fr.schedule.SchedulePlate
+startPlate: com.fr.mobile.FMobilePlate
+startPlate success: com.fr.mobile.FMobilePlate
+startPlate: com.fr.fs.process.ReportProcessPlate
+startPlate success: com.fr.fs.process.ReportProcessPlate
+startPlate: com.fr.fs.systemmonitor.SystemMonitorPlate
+startPlate success: com.fr.fs.systemmonitor.SystemMonitorPlate
+startPlate: com.fr.fs.process.FSConfigBackupRestoreProcessPlate
+startPlate success: com.fr.fs.process.FSConfigBackupRestoreProcessPlate
+startPlate: com.fr.fs.plugin.op.PluginOperatePlate
+startPlate success: com.fr.fs.plugin.op.PluginOperatePlate
+startPlate: com.fr.fs.plugin.customstyle.CustomStylePlate
+startPlate success: com.fr.fs.plugin.customstyle.CustomStylePlate
+startPlate: com.fr.bi.BIPlate
+java.lang.ClassNotFoundException: com.fr.bi.BIPlate
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:344)
+	at com.fr.general.GeneralUtils.classForName(GeneralUtils.java:277)
+	at com.fr.fs.PlateFactory.startPlate(PlateFactory.java:53)
+	at com.fr.fs.FSModule.startPlate(FSModule.java:130)
+	at com.fr.fs.FSModule.init(FSModule.java:89)
+	at com.fr.fs.FSModule.startFinish(FSModule.java:84)
+	at com.fr.report.module.EngineModule.start(EngineModule.java:78)
+	at com.fr.general.ModuleContext.startModule(ModuleContext.java:47)
+	at com.fr.web.BaseServlet.init(BaseServlet.java:84)
+	at com.fr.web.ReportServlet.init(ReportServlet.java:44)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:383)
+	at org.mortbay.jetty.servlet.ServletHolder.start(ServletHolder.java:243)
+	at org.mortbay.jetty.servlet.ServletHandler.initializeServlets(ServletHandler.java:446)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.initializeServlets(WebApplicationHandler.java:321)
+	at org.mortbay.jetty.servlet.WebApplicationContext.doStart(WebApplicationContext.java:509)
+	at org.mortbay.util.Container.start(Container.java:72)
+	at com.fr.start.server.JettyHost.addAndStartWebApplication(JettyHost.java:123)
+	at com.fr.start.server.JettyHost.addAndStartLocalEnvHomeWebApp(JettyHost.java:278)
+	at com.fr.start.StartServer.browerURLWithLocalEnv(StartServer.java:118)
+	at com.fr.design.utils.DesignUtils.visitEnvServerByParameters(DesignUtils.java:318)
+	at com.fr.design.actions.file.WebPreviewUtils.browseUrl(WebPreviewUtils.java:83)
+	at com.fr.design.actions.file.WebPreviewUtils.actionPerformed(WebPreviewUtils.java:46)
+	at com.fr.design.actions.file.WebPreviewUtils.onWorkbookPreview(WebPreviewUtils.java:19)
+	at com.fr.start.Designer$8.upButtonClickEvent(Designer.java:230)
+	at com.fr.design.gui.ibutton.UIPreviewButton$1.mouseClicked(UIPreviewButton.java:58)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6528)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4542)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get
+get

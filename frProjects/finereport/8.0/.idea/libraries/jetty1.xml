@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="jetty1">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/mx4j-remote.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/commons-el.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/activation.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/xercesImpl.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/mx4j.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/jasper-compiler.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/javax.servlet.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/jaxrpc.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/mail.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/org.mortbay.jmx.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/xml-apis.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/saaj.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/org.mortbay.jetty.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/xmlParserAPIs.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/commons-logging.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/mx4j-tools.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/jasper-runtime.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-oem/build/package/lib/jetty/swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

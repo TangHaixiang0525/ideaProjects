@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.mail-1.5.5">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-ssl-mail/lib/javax.mail-1.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

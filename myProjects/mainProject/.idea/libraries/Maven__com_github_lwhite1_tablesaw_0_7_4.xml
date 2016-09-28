@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.lwhite1:tablesaw:0.7.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/lwhite1/tablesaw/0.7.4/tablesaw-0.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/lwhite1/tablesaw/0.7.4/tablesaw-0.7.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/lwhite1/tablesaw/0.7.4/tablesaw-0.7.4-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/lwhite1/tablesaw/0.7.4/tablesaw-0.7.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

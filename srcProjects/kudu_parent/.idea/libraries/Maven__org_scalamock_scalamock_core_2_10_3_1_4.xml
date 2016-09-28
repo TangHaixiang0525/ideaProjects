@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.scalamock:scalamock-core_2.10:3.1.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalamock/scalamock-core_2.10/3.1.4/scalamock-core_2.10-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalamock/scalamock-core_2.10/3.1.4/scalamock-core_2.10-3.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalamock/scalamock-core_2.10/3.1.4/scalamock-core_2.10-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

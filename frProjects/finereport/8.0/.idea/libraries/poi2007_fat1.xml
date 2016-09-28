@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="poi2007_fat1">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-excel_export_custom/lib/poi2007_fat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

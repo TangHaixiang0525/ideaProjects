@@ -1,0 +1,1 @@
+package start;import org.springframework.data.repository.CrudRepository;import start.Employee;import java.util.List;public interface EmployeeRepository extends CrudRepository<Employee, Long> {	Employee findByFirstName(String firstName);	List<Employee> findByLastName(String lastName);}

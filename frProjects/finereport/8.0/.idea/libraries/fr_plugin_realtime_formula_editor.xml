@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fr-plugin-realtime-formula-editor">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/plugins-free/plugin-formulaeditor/install/fr-plugin-realtime-formula-editor.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

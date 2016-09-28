@@ -1,0 +1,1 @@
+package kudu;/** * Created by Hiram on 2016/3/28. */public class Constant {	public final static String KUDU_MASTER = "192.168.4.161";	public final static String TABLE_NAME = "MyTest";	static{		System.setProperty(					"kuduMaster", "192.168.4.161");	}}

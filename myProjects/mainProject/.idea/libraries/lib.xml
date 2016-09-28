@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/alipaydirect/即时到账交易接口-create_direct_pay_by_user(201501015)/create_direct_pay_by_user-JAVA-GBK/WebRoot/WEB-INF/lib/commons-codec-1.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/alipaydirect/即时到账交易接口-create_direct_pay_by_user(201501015)/create_direct_pay_by_user-JAVA-GBK/WebRoot/WEB-INF/lib/commons-httpclient-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/alipaydirect/即时到账交易接口-create_direct_pay_by_user(201501015)/create_direct_pay_by_user-JAVA-GBK/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/alipaydirect/即时到账交易接口-create_direct_pay_by_user(201501015)/create_direct_pay_by_user-JAVA-GBK/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/alipaydirect/即时到账交易接口-create_direct_pay_by_user(201501015)/create_direct_pay_by_user-JAVA-GBK/WebRoot/WEB-INF/lib/jaxen-1.1-beta-6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

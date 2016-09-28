@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="jetty2">
+    <CLASSES>
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/activation.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/commons-el.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/commons-logging.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/jasper-compiler.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/jasper-runtime.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/javax.servlet.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/jaxrpc.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/mail.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/mx4j-remote.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/mx4j-tools.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/mx4j.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/org.mortbay.jetty.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/org.mortbay.jmx.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/saaj.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/xercesImpl.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/xml-apis.jar!/" />
+      <root url="jar://F:/code/git/fr/finereport/lib/jetty/xmlParserAPIs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

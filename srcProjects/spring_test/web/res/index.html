@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0060)http://www.xingfuhuli1.net/index.php?g=admin&m=index&a=panel -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>商城后台</title><link href="http://www.xingfuhuli1.net/static/css/bootstrap.min.css" rel="stylesheet"><link href="http://www.xingfuhuli1.net/static/css/bootstraps.css" rel="stylesheet"><link href="style.css" rel="stylesheet"><script type="text/javascript" src="jquery.min(1).js"></script><script type="text/javascript" src="all.js"></script><style>
+.pages a,
+.pages strong{
+	display:inline-block;
+	line-height:28px;
+	padding:0 10px;
+	border:1px solid #d9d9d9;
+	background-color:#ffffff; 
+	text-decoration:none;
+	color:#666;
+	font-family:Simsun;
+	-webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out;
+	margin-right:3px;
+}
+.pages  .current{
+	display:inline-block;
+	line-height:28px;
+	padding:0 10px;
+	border:1px solid #d9d9d9;
+	background-color:#ffffff; 
+	text-decoration:none;
+	font-family:Simsun;
+	-webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out;
+	margin-right:3px;
+	
+	color:#fff;
+	background-color:#24557d;
+	border-color:#fff;
+}
+.pages a:hover{
+	color:#fff;
+	background-color:#24557d;
+	border-color:#fff;
+	text-decoration:none;
+}
+.pages strong{
+	color:#fff;
+	background-color:#24557d;
+	border-color:#fff;
+}
+.pages span{
+	padding:0 10px;
+	line-height:23px;
+}
+</style><script>
+	var URL = '/index.php/admin-index';
+	var SELF = '/index.php?g=admin&m=index&a=panel';
+	var ROOT_PATH = '';
+	var APP	 =	 '/index.php';
+	//语言项目
+	var lang = new Object();
+	lang.connecting_please_wait = "请稍后...";lang.confirm_title = "提示消息";lang.move = "移动";lang.dialog_title = "消息";lang.dialog_ok = "确定";lang.dialog_cancel = "取消";lang.please_input = "请输入";lang.please_select = "请选择";lang.not_select = "不选择";lang.all = "所有";lang.input_right = "输入正确";lang.plsease_select_rows = "请选择要操作的项目！";lang.upload = "上传";lang.uploading = "上传中";lang.upload_type_error = "不允许上传的文件类型！";lang.upload_size_error = "文件大小不能超过{sizeLimit}！";lang.upload_minsize_error = "文件大小不能小于{minSizeLimit}！";lang.upload_empty_error = "文件为空，请重新选择！";lang.upload_nofile_error = "没有选择要上传的文件！";lang.upload_onLeave = "正在上传文件，离开此页将取消上传！";</script></head><body style="font-size: 12px; overflow: hidden;" scroll="no"><div id="mainer"><div class="mainbox"><div class="col-xs-12" style="margin-top:20px;"><div class="col-xs-2"><div class="small-box bg-aqua"><a class="J_showdialog" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=user&amp;a=add" data-title="注册会员" data-id="add" data-width="570" data-height="330"><div class="inner"><h3>注册会员</h3><span>&nbsp;</span></div><div class="icon"><i class="fa glyphicon glyphicon-user"></i></div></a><a class="small-box-footer J_showdialog" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=user&amp;a=add" data-title="注册会员" data-id="add" data-width="500" data-height="330">
+					More info <i class="glyphicon glyphicon-circle-arrow-right"></i></a></div></div><div class="col-xs-2"><div class="small-box bg-yellow"><a class="J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=useragent&amp;a=index&amp;menuid=341" data-id="341" title="升级中心"><div class="inner"><h3>升级中心</h3><span>&nbsp;</span></div><div class="icon"><i class="fa glyphicon glyphicon-refresh"></i></div></a><a class="small-box-footer J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=useragent&amp;a=index&amp;menuid=341" data-id="341" title="升级中心">
+					More info <i class="glyphicon glyphicon-circle-arrow-right"></i></a></div></div><div class="col-xs-2"><div class="small-box bg-red"><a class="J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=user&amp;a=index&amp;menuid=279" data-id="279" title="会员管理"><div class="inner"><h3>会员管理</h3><span>会员数量：20</span></div><div class="icon"><i class="fa glyphicon glyphicon-home"></i></div></a><a class="small-box-footer J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=user&amp;a=index&amp;menuid=279" data-id="279" title="会员管理">
+					More info <i class="glyphicon glyphicon-circle-arrow-right"></i></a></div></div><div class="col-xs-2"><div class="small-box bg-green"><a class="J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=item_order&amp;a=index&amp;status=1&amp;menuid=296" data-id="296" title="订单中心"><div class="inner"><h3>订单中心</h3><span>订单数量：0</span></div><div class="icon"><i class="fa glyphicon glyphicon-signal"></i></div></a><a class="small-box-footer J_showdialog" onclick="top.actMenuBtn(this)" href="javascript:void(0);" data-uri="/index.php?g=admin&amp;m=item_order&amp;a=index&amp;status=1&amp;menuid=296" data-id="296" title="订单中心">
+					More info <i class="glyphicon glyphicon-circle-arrow-right"></i></a></div></div><div class=" col-xs-4"><div class="panel panel-primary" style="height:120px;width:100%"><div class="panel-heading"><h3 class="panel-title">最新公告</h3></div><div class="lass panel-body"><div class="rm col-xs-12"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=placard&a=show&id=13" style="color:#999;">关于“幸福狐狸大系统”等级升级的规章制度</a><span style="float: right;color:#999;">2015-10-24</span></div><div class="rm col-xs-12"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=placard&a=show&id=11" style="color:#999;">乱价 乱货 乱抢代理</a><span style="float: right;color:#999;">2015-07-25</span></div></div></div></div></div><div class="col-xs-12"><div class="col-xs-12"><div class="nc"><ul class="nav nav-tabs"><li class="btnA_4 active"><a href="javascript:;" onclick="mmUserlist(4)">二级分销&nbsp;&nbsp;&nbsp;(4)</a></li><li class="btnA_5"><a href="javascript:;" onclick="mmUserlist(5)">特约分销&nbsp;&nbsp;&nbsp;(16)</a></li></ul></div><div id="divlist" style="float: left; width: 100%; overflow-x: auto; min-height: 300px; height: 339px;"><table class="table table-striped"><thead><tr><th align="left" style="font-size:12px;padding-left:30px;">授权号</th><th align="left" style="font-size:12px;padding-left:30px;">会员姓名</th><th align="left" style="font-size:12px;padding-left:30px;">联系电话</th><th align="left" style="font-size:12px;padding-left:30px;">微信</th><th align="left" style="font-size:12px;padding-left:30px;">上级</th><th align="left" style="font-size:12px;padding-left:30px;">区域</th><th align="left" style="font-size:12px;padding-left:30px;">一级</th><th align="left" style="font-size:12px;padding-left:30px;">二级</th><th align="left" style="font-size:12px;padding-left:30px;">特约</th><th align="left" style="font-size:12px;padding-left:30px;">会员总数</th><th align="left" style="font-size:12px;padding-left:30px;">本月订货</th><th align="left" style="font-size:12px;padding-left:30px;">总订货</th><th align="left" style="font-size:12px;padding-left:30px;">操作</th></tr></thead><tbody id="mmUserlist_4" class="mmUserlist" style=""><tr><td align="left" style="font-size:12px;padding-left:30px;">257614887</td><td align="left" style="font-size:12px;padding-left:30px;">阮永伟</td><td align="left" style="font-size:12px;padding-left:30px;">13645714130</td><td align="left" style="font-size:12px;padding-left:30px;">ryw878899317</td><td align="left" style="font-size:12px;padding-left:30px;">卢曾兰</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=user&a=slist&id=156114&menuid=279">查看分销</a></td></tr><tr><td align="left" style="font-size:12px;padding-left:30px;">418402886</td><td align="left" style="font-size:12px;padding-left:30px;">史清梅</td><td align="left" style="font-size:12px;padding-left:30px;">15282032003</td><td align="left" style="font-size:12px;padding-left:30px;">qinger2229</td><td align="left" style="font-size:12px;padding-left:30px;">卢曾兰</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=user&a=slist&id=83737&menuid=279">查看分销</a></td></tr><tr><td align="left" style="font-size:12px;padding-left:30px;">367687958</td><td align="left" style="font-size:12px;padding-left:30px;">李云霞</td><td align="left" style="font-size:12px;padding-left:30px;">13753112977</td><td align="left" style="font-size:12px;padding-left:30px;">lsh18735111674</td><td align="left" style="font-size:12px;padding-left:30px;">卢曾兰</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=user&a=slist&id=37052&menuid=279">查看分销</a></td></tr><tr><td align="left" style="font-size:12px;padding-left:30px;">612971339</td><td align="left" style="font-size:12px;padding-left:30px;">陈元</td><td align="left" style="font-size:12px;padding-left:30px;">13777518003</td><td align="left" style="font-size:12px;padding-left:30px;">chenyuanmdj123</td><td align="left" style="font-size:12px;padding-left:30px;">卢曾兰</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;">0</td><td align="left" style="font-size:12px;padding-left:30px;"><a href="http://www.xingfuhuli1.net/index.php?g=admin&m=user&a=slist&id=36387&menuid=279">查看分销</a></td></tr><tr><td colspan="15" class="pages"></td></tr></tbody><tbody id="mmUserlist_5" class="mmUserlist" style="display:none;"></tbody><tbody id="mct01" style="display: none;"><tr><td colspan="10">
+				努力加载中...
+			</td></tr></tbody></table></div></div></div><div class="cb"></div></div></div><script src="pinphp.js"></script><script src="admin.js"></script><script src="formvalidator.js"></script><script src="index.js"></script><script>//初始化弹窗
+(function (d) {
+    d['okValue'] = lang.dialog_ok;
+    d['cancelValue'] = lang.dialog_cancel;
+    d['title'] = lang.dialog_title;
+})($.dialog.defaults);
+
+var curSortLev = 0;
+function mmUserlist(num)
+{
+	$(".nav-tabs li").removeClass("active");
+	$(".btnA_"+num).addClass("active");
+
+	$(".mmUserlist").hide();
+	$("#mct01").show();
+
+	if($("#mmUserlist_"+num).html() != '')
+	{
+		$("#mct01").hide();
+		$("#mmUserlist_"+num).show();
+	}
+	else
+	{
+		curSortLev = num;
+		getUserInfolist(1);
+		/*
+		$.get("/index.php?g=admin&m=index&a=panel&mmulist=1&tnum="+num, function(data){
+			$("#mct01").hide();
+			$("#mmUserlist_"+num).html(data);
+			$("#mmUserlist_"+num).show();
+		});
+		*/
+	}
+
+}
+
+function getUserInfolist(id){   
+	$("#mct01").show();
+	$("#mmUserlist_"+curSortLev).hide();
+	$.get("/index.php?g=admin&m=index&a=panel&mmulist=1", {'tnum':curSortLev, 'p':id }, function(data){
+		$("#mct01").hide();
+		$("#mmUserlist_"+curSortLev).html(data);
+		$("#mmUserlist_"+curSortLev).show();
+	});
+ }
+
+
+$(function(){
+var main = $(window.document).find("#mainer");
+$("#divlist").height(main.height()-180);
+
+mmUserlist(4);});
+</script></body></html>

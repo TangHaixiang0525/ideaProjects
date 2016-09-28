@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/frameworks.iml" filepath="$PROJECT_DIR$/frameworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate-start.iml" filepath="$PROJECT_DIR$/hibernate/hibernate-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsqlparser/jsqlparser.iml" filepath="$PROJECT_DIR$/jsqlparser/jsqlparser.iml" />
+    </modules>
+  </component>
+</project>

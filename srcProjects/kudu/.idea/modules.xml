@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/interface-annotations/interface-annotations.iml" filepath="$PROJECT_DIR$/interface-annotations/interface-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu-client/kudu-client.iml" filepath="$PROJECT_DIR$/kudu-client/kudu-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu-client-tools/kudu-client-tools.iml" filepath="$PROJECT_DIR$/kudu-client-tools/kudu-client-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu-mapreduce/kudu-mapreduce.iml" filepath="$PROJECT_DIR$/kudu-mapreduce/kudu-mapreduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu-parent.iml" filepath="$PROJECT_DIR$/kudu-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu-spark/kudu-spark.iml" filepath="$PROJECT_DIR$/kudu-spark/kudu-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudu_test.iml" filepath="$PROJECT_DIR$/kudu_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kudutest/kudutest.iml" filepath="$PROJECT_DIR$/kudutest/kudutest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+[
+  {
+    "translations": {
+      "1b8d8b13d75e2a66": "1Y_XH"
+    },
+    "name": "1Y_XH",
+    "dataLinkName": "xinghuang",
+    "id": "1b8d8b13d75e2a66",
+    "sql": "select * from SB_ZZS_2003_FB2"
+  },
+  {
+    "translations": {
+      "93b0a52ba00153c3": "sql_date"
+    },
+    "name": "sql_date",
+    "dataLinkName": "mysql",
+    "id": "93b0a52ba00153c3",
+    "sql": "select name,name from tb_date"
+  },
+  {
+    "translations": {
+      "f4b20bc17b00b435": "sql数据集1"
+    },
+    "name": "sql数据集1",
+    "dataLinkName": "JDBC2",
+    "id": "f4b20bc17b00b435",
+    "sql": "select * from PUBLIC.FR_EXERECORD"
+  },
+  {
+    "translations": {
+      "88df0bd3ada0629f": "sql数据集"
+    },
+    "name": "sql数据集",
+    "dataLinkName": "mysql",
+    "id": "88df0bd3ada0629f",
+    "sql": "select * from 10w_10col"
+  },
+  {
+    "translations": {
+      "e8e2567827725335": "sql数据集2"
+    },
+    "name": "sql数据集2",
+    "dataLinkName": "mysql",
+    "id": "e8e2567827725335",
+    "sql": "select * from tb_name4"
+  }
+]
